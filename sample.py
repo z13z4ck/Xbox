@@ -20,41 +20,41 @@ while not joy.Back():
     # Right trigger
     print ("Rtrg ",fmtFloat(joy.rightTrigger()))
     # A/B/X/Y buttons
-    print ("Buttons ")
+    print("Buttons ")
     if joy.A():
         print("A")
     else:
-        print(" ")
+        pass
     if joy.B():
         print("B")
     else:
-        print(" ")
+        pass
     if joy.X():
         print("X")
     else:
-        print(" ")
+        pass
     if joy.Y():
         print("Y")
     else:
-        print(" ")
+        pass
     # Dpad U/D/L/R
     print("Dpad ")
     if joy.dpadUp():
         print("U")
     else:
-        print(" ")
+        pass
     if joy.dpadDown():
         print("D")
     else:
-        print(" ")
+        pass
     if joy.dpadLeft():
         print("L")
     else:
-        print(" ")
+        pass
     if joy.dpadRight():
         print("R")
     else:
-        print(" ")
+        pass
         
     # Move cursor back to start of line
     print(chr(13))
