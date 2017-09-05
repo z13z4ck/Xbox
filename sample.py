@@ -7,7 +7,7 @@ def fmtFloat(n):
     
 joy = xbox.Joystick()
 
-print ("Xbox controller sample: Press Back button to exit")
+print("Xbox controller sample: Press Back button to exit")
 # Loop until back button is pressed
 while not joy.Back():
     # Show connection status
