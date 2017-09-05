@@ -12,15 +12,15 @@ print ("Xbox controller sample: Press Back button to exit")
 while not joy.Back():
     # Show connection status
     if joy.connected():
-        print ("Connected   ")
+        print("Connected   ")
     else:
-        print ("Disconnected")
+        print("Disconnected")
     # Left analog stick
-    print ("Lx,Ly ",fmtFloat(joy.leftX()),fmtFloat(joy.leftY()))
+    print("Lx,Ly ", fmtFloat(joy.leftX()),fmtFloat(joy.leftY()))
     # Right trigger
-    print ("Rtrg ",fmtFloat(joy.rightTrigger()))
+    print("Rtrg ", fmtFloat(joy.rightTrigger()))
     # A/B/X/Y buttons
-    print("Buttons ")
+    print("Buttons :")
     if joy.A():
         print("A")
     else:
